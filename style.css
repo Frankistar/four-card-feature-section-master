@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-blue);
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
+.container {
+  padding: 50px 31.5px;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.top {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.section1 p {
+  line-height: 1.6;
+}
+
+.section1 {
+  margin-bottom: 82px;
+}
+
+.section2 > div {
+  background-color: white;
+  border-radius: 8px;
+  padding: 22.5px;
+  box-shadow: 1px 1px 15px 1px hsla(229, 6%, 66%, 0.5);
+}
+
+.section2 > div > img {
+  position: relative;
+  left: 170px;
+  margin-top: 40px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section2 > div > h2 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section2 > div > p {
+  line-height: 1.8;
+}
+
+.first {
+  border-top: 5px solid var(--cyan);
+}
+.second {
+  border-top: 5px solid var(--red);
+}
+.third {
+  border-top: 5px solid var(--orange);
+}
+.fourth {
+  border-top: 5px solid var(--blue);
+}
